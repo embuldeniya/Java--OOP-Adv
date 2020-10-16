@@ -1,0 +1,54 @@
+package com.gp;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class Student {
+	
+	@Id
+	@GeneratedValue
+	private int id;
+	
+	@Column
+	private String name;
+	@Column
+	private double fees;
+	@Column
+	private String course;
+	
+	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", fees=" + fees + ", course=" + course + "]";
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public double getFees() {
+		return fees;
+	}
+	public void setFees(double fees) {
+		this.fees = fees;
+	}
+	public String getCourse() {
+		return course;
+	}
+	public void setCourse(String course) {
+		this.course = course;
+	}
+	
+	
+
+}

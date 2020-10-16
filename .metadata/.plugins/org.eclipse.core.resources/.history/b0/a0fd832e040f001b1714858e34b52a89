@@ -1,0 +1,54 @@
+package com.gp;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.ManyToMany;
+import javax.persistence.OneToMany;
+
+@Entity
+public class Student {
+	
+	@Id
+	@GeneratedValue
+	private int id;
+	
+	@Column
+	private String name;
+	
+	@OneToMany
+	private List <Course> course = new ArrayList<Course>();
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Student [id=" + id + ", name=" + name + ", course=" + course + "]";
+	}
+	public List<Course> getCourse() {
+		return course;
+	}
+	public void setCourse(List<Course> course) {
+		this.course = course;
+	}
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	
+	
+	
+
+}

@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+	pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body bgcolor=yellow text=green>
+
+	<%
+		String loginId = (String) session.getAttribute("loginId");
+	%>
+
+
+	Hi:
+	<%=loginId%><h1>
+		<center>Welcome to HR Home Page..</center>
+	</h1>
+	<h3>
+		<center>
+			<a href='DisplayEmp.html'>Display Employee Id </a>
+		</center>
+	</h3>
+	<h3>
+		<center>
+			<a href='DisplayAllServlet'>Display All Employees</a>
+		</center>
+
+
+	</h3>
+	<h3>
+
+		<center>
+			<a href='Login.html'>Log off </a>
+		</center>
+	</h3>
+
+
+
+
+
+
+
+</body>
+</html>

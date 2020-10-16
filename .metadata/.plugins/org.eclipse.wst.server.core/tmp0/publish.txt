@@ -1,0 +1,4 @@
+#Tomcat publish data
+#Thu Oct 15 09:59:49 CDT 2020
+org.eclipse.jst.j2ee.server\:/binary\:C\:\\Users\\Tharinda\\.m2\\repository\\org\\springframework\\spring-web\\5.0.10.RELEASE\\spring-web-5.0.10.RELEASE.jar=WEB-INF/lib/spring-web-5.0.10.RELEASE.jar
+org.eclipse.jst.jee.server\:/binary\:C\:\\Users\\Tharinda\\Desktop\\Java\ Videos\\SpringMVCwithHibernate\\WebContent\\WEB-INF\\lib\\spring-web-4.3.13.RELEASE.jar=WEB-INF/lib/spring-web-4.3.13.RELEASE.jar

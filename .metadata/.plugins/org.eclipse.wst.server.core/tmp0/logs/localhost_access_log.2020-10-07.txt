@@ -1,0 +1,17 @@
+127.0.0.1 - - [07/Oct/2020:20:06:57 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:06:58 -0500] "GET /EmpWebApp2/index.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:07:21 -0500] "GET /EmpWebApp2/Login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:07:27 -0500] "POST /EmpWebApp2/LoginServlet HTTP/1.1" 404 778
+127.0.0.1 - - [07/Oct/2020:20:07:40 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:07:52 -0500] "POST /EmpWebApp2/LoginServlet HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:08:11 -0500] "GET /EmpWebApp2/HelloServlet HTTP/1.1" 404 778
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:08:25 -0500] "GET /EmpWebApp2/DisplayEmp.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:08:31 -0500] "POST /EmpWebApp2/DisplayEmpServlet HTTP/1.1" 404 783
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:09:07 -0500] "GET /EmpWebApp2/HelloServlet HTTP/1.1" 404 778
+127.0.0.1 - - [07/Oct/2020:20:09:27 -0500] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:09:28 -0500] "GET /EmpWebAApp/login.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:09:31 -0500] "POST /EmpWebAApp/LoginServlet HTTP/1.1" 200 103
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:09:59 -0500] "GET /EmpWebApp2/HelloServlet HTTP/1.1" 200 102
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:10:10 -0500] "POST /EmpWebApp2/LoginServlet HTTP/1.1" 200 393
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:10:12 -0500] "GET /EmpWebApp2/ProfileView.jsp HTTP/1.1" 200 840
+0:0:0:0:0:0:0:1 - - [07/Oct/2020:20:10:12 -0500] "GET /EmpWebApp2/ProfileView.jsp HTTP/1.1" 200 840
